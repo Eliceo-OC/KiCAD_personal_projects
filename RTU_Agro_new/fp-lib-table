@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RTU_Agro_V4")(type "KiCad")(uri "$(KIPRJMOD)/RTU_Agro_new.pretty")(options "")(descr ""))
+)

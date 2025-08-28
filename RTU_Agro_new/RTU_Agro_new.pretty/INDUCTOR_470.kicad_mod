@@ -1,0 +1,111 @@
+(footprint "INDUCTOR_470"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "876abbac-0157-4e55-9c94-5d21f2219a23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cff3ad40-042c-41a0-af24-3b740a0a555c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eff2461-57ef-4df6-ab28-323b9ae8d0b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a493ac7-2022-49ef-838d-ddfec53088c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0 -12)
+		(end 12 -12)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cadc39c5-4579-42e9-afe1-3a5c02fcf699")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -12)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "696f2433-511d-4f89-bc58-82bbdf79b5c7")
+	)
+	(fp_line
+		(start 12 -12)
+		(end 12 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53a24f28-4616-4fe7-bbd3-23fe71323ce9")
+	)
+	(fp_line
+		(start 12 0)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "010bb6ac-8350-4f45-97bc-fbb7d7cca0eb")
+	)
+	(pad "P$1" smd rect
+		(at 6 -0.8)
+		(size 5.08 2.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "b28bbbdc-c39b-4383-995f-75ebab4d0955")
+	)
+	(pad "P$2" smd rect
+		(at 6 -11.2)
+		(size 5.08 2.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "5fae129a-ead7-4ec4-9e4e-95f440db4d80")
+	)
+	(embedded_fonts no)
+)

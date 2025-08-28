@@ -1,0 +1,168 @@
+(footprint "CSM-7X-DU_204"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD CRYSTAL\n\nSource: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF")
+	(property "Reference" "REF**"
+		(at -7.6288 -2.5334 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "12bd5710-bdbb-45dc-a87a-5efad7ee54c0")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CSM-7X-DU_204"
+		(at -7.6288 4.3114 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1904cfe9-aab7-43a6-9bd4-69334fbbfe6d")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6311b1c-1edf-4fa8-a99e-0e08727f2947")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e0c6b33-01b6-4ae8-ae15-d492dd15a966")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.575 -2.3)
+		(end -2.725 -2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c807c40-1604-4200-a4b8-2ca6e7704065")
+	)
+	(fp_line
+		(start -5.575 2.3)
+		(end -5.575 -2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a82830a-c4cd-4eb2-a803-1b355c4e4451")
+	)
+	(fp_line
+		(start -2.75 2.3)
+		(end -5.575 2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8557a5a3-c6fb-4cb6-8d30-ece1db0cc851")
+	)
+	(fp_line
+		(start -2.725 -2.3)
+		(end 2.75 -2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13992373-d813-42f5-8385-47810c740035")
+	)
+	(fp_line
+		(start 2.75 -2.3)
+		(end 5.55 -2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9b28a28-f4c7-480e-a554-d9e1f0fe2f9c")
+	)
+	(fp_line
+		(start 5.55 -2.3)
+		(end 5.55 2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdde229d-02ff-4943-ad95-b84050be3dc6")
+	)
+	(fp_line
+		(start 5.55 2.3)
+		(end -2.75 2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6920cbe-7fa1-457d-af31-fdc184ce3fca")
+	)
+	(fp_arc
+		(start -2.75 2.3)
+		(mid -5.0375 -0.0125)
+		(end -2.725 -2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aad28780-815c-434e-a298-ffd8f1d9f058")
+	)
+	(fp_arc
+		(start 2.75 -2.3)
+		(mid 5.0375 0.0125)
+		(end 2.725 2.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24f68cf8-1764-47ff-817e-fcb29189e126")
+	)
+	(pad "1" smd rect
+		(at -4.75 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "fa56d852-713f-457b-bc8f-66269b12e224")
+	)
+	(pad "2" smd rect
+		(at 4.75 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "25fb2b56-0cc7-48b5-9ab8-ad890b933a6b")
+	)
+	(embedded_fonts no)
+)
