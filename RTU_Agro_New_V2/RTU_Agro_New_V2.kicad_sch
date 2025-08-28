@@ -472,7 +472,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:CK_KMS2xxG"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -481,7 +484,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 4.318 2.032 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -489,15 +492,15 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CK_KMS2xxG"
-				(at 0 4.572 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+			(property "Footprint" ""
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -506,7 +509,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -515,7 +518,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -533,16 +536,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SW*KMS2*G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CK_KMS2xxG_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -560,30 +554,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -642,37 +612,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CK_KMS2xxG_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1067,6 +1006,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa6f707-803d-40d0-888b-135d7421d780")
+		(property "Reference" "SW1"
+			(at 113.03 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 113.03 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74ef158a-96b2-491e-85d4-f792f8272da5")
+		)
+		(pin "2"
+			(uuid "70fa3fe0-9e2d-4511-9fa3-0345140a6f73")
+		)
+		(instances
+			(project ""
+				(path "/5a551801-5acd-41fb-be56-cbe6248553b7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:4N25")
 		(at 162.56 87.63 0)
 		(unit 1)
@@ -1144,79 +1153,6 @@
 			(project ""
 				(path "/5a551801-5acd-41fb-be56-cbe6248553b7"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:CK_KMS2xxG")
-		(at 111.76 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d0cab3a-063d-47df-8c58-bbe9b422fcf8")
-		(property "Reference" "SW1"
-			(at 107.95 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CK_KMS2xxG"
-			(at 107.95 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-			(at 111.76 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "7cdcefee-7497-481e-84af-0039cba686a1")
-		)
-		(pin "1"
-			(uuid "85fccc66-06f5-4b69-8ce5-61cf0a21798f")
-		)
-		(pin "2"
-			(uuid "9c83af0d-defd-4693-927c-1e3f34b45632")
-		)
-		(instances
-			(project ""
-				(path "/5a551801-5acd-41fb-be56-cbe6248553b7"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1314,7 +1250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm"
 			(at 148.59 86.868 90)
 			(effects
 				(font
@@ -1450,7 +1386,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm"
 			(at 113.538 92.71 90)
 			(effects
 				(font
