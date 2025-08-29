@@ -431,7 +431,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -468,7 +468,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -598,8 +598,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
-    "plot_directory": "",
+    "page_layout_descr_file": "kicad-embed://Template_Electroshop.kicad_wks",
+    "plot_directory": "Outputs/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -614,6 +614,50 @@
     [
       "90ee446b-8259-4f9e-bbe3-142f081fc3e2",
       "Root"
+    ],
+    [
+      "a2d4f9d4-f860-4743-b69c-092712726dd3",
+      "Reguladores de voltaje"
+    ],
+    [
+      "b5e86a9c-77e7-481f-9226-d2ba9556fa68",
+      "Control"
+    ],
+    [
+      "e64d93dd-dd49-446e-9ba5-2d3a3d805db7",
+      "Reeds switches"
+    ],
+    [
+      "7b8ff397-23be-41f5-b8a3-a9a80dd8d945",
+      "Valvula1"
+    ],
+    [
+      "8adeb097-c1c6-4ecb-84a4-81d9f7b4a1c6",
+      "Valvula2"
+    ],
+    [
+      "e882e53a-439b-4717-a4c1-02ccd88e41e4",
+      "Valvula3"
+    ],
+    [
+      "14ac5e66-634a-4c80-8fa3-ecf6b7578cc0",
+      "Valvula4"
+    ],
+    [
+      "4cfc5681-a705-431d-a1a2-ce266b22f8e1",
+      "Valvula5"
+    ],
+    [
+      "bdc00be0-2d86-46ba-8307-ef71d11a7fd7",
+      "Valvula6"
+    ],
+    [
+      "b07ff73c-800c-4c9a-b2af-c240b07e2d48",
+      "Valvula7"
+    ],
+    [
+      "c8a43afb-c65f-481a-bb2b-6e15960b07a2",
+      "Valvula8"
     ]
   ],
   "text_variables": {}

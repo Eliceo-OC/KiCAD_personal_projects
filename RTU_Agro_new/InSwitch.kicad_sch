@@ -1,0 +1,3801 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "403aff75-2923-455e-a89e-f5c792208c10")
+	(paper "A3")
+	(title_block
+		(title "RTU-Eneragro")
+		(date "2025-08-29")
+		(rev "2.0")
+		(company "ELECTROSHOP")
+		(comment 1 "Colaborator 1: Eliceo Ocampo Ccoicca")
+	)
+	(lib_symbols
+		(symbol "RTU_Agro_V4-eagle-import:LTV816S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "OK"
+				(at -6.985 5.715 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.985 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RTU_Agro_V4:DIL4-SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "OPTO COUPLER\n\nSource: LITEON, LTV816.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTV816S_1_0"
+				(polyline
+					(pts
+						(xy -6.985 5.08) (xy -6.985 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 5.08) (xy 4.445 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -5.08) (xy 4.445 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.27) (xy -5.715 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.27) (xy -5.715 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.27) (xy -5.715 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.27) (xy -4.445 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -4.445 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -4.445 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.143 1.397)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 -1.143) (xy -1.016 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.016) (xy -1.524 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.127) (xy -1.397 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy -1.143 1.397)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 -0.635) (xy -1.016 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.397) (xy -2.032 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.254) (xy -1.905 -0.127)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.381 -2.54)
+					(end 0.381 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.286 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.778) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.016) (xy 2.286 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.286) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.286) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 5.08) (xy 4.445 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "COL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "EMIT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 3.048 -0.889 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.683 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MKDSN 1,5/ 8-5,08 Printklemme\n\nNennstrom: 13,5 A\nNennspannung: 250 V\nRastermaß: 5,08 mm\nPolzahl: 8\nAnschlussart: Schraubanschluss\nMontage: Löten\nAnschlussrichtung Leiter/Platine: 0 °\nArtikelnummer: 1729186\nSource: http://eshop.phoenixcontact.com .. 1729186.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_1_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_2_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_3_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_4_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_5_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_6_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_7_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MKDSN1,5/8-5,08_8_0"
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "KL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RTU_Agro_V4-eagle-import:R-EU_R0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RTU_Agro_V4:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 204.47 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23e1d963-0ce5-4350-820f-b9531a72a070")
+	)
+	(junction
+		(at 242.57 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24369698-4d8d-4e3d-8e0f-abfcaeb4c3d1")
+	)
+	(junction
+		(at 204.47 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aec1dcf-118c-4145-992f-4848695a9673")
+	)
+	(junction
+		(at 242.57 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a58b409-1a50-4f96-a5a6-a9ef60a01ee4")
+	)
+	(junction
+		(at 207.01 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "458737ed-d464-4adc-a506-6834fc2f465d")
+	)
+	(junction
+		(at 207.01 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b00beff2-9c14-477b-a35e-15e1ddcad931")
+	)
+	(junction
+		(at 207.01 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c209b83d-c341-44b6-b852-6bd39c1e1029")
+	)
+	(junction
+		(at 242.57 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d55c1efc-e618-4ae2-af04-b316ac78da42")
+	)
+	(junction
+		(at 245.11 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3b4e38d-9e28-4b69-89bf-e396e51b28dc")
+	)
+	(junction
+		(at 245.11 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7c5d54d-2f70-4618-af26-284e7d721e4d")
+	)
+	(junction
+		(at 245.11 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44fcbf0-a115-4afb-90f0-685345e6da92")
+	)
+	(wire
+		(pts
+			(xy 257.81 149.86) (xy 257.81 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0199c278-2a72-4732-8ef1-2424d36803a4")
+	)
+	(wire
+		(pts
+			(xy 201.93 119.38) (xy 204.47 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "044c8eec-c5cc-45d1-8145-e129082957d4")
+	)
+	(wire
+		(pts
+			(xy 222.25 114.3) (xy 201.93 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "06f771bf-610f-4d2c-ae17-54241f4be8a9")
+	)
+	(wire
+		(pts
+			(xy 245.11 102.87) (xy 245.11 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ae37e0f-a588-4057-8535-79c7f01906be")
+	)
+	(wire
+		(pts
+			(xy 222.25 109.22) (xy 219.71 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1261e8ae-1906-4bfe-a2bc-77b4fe5e1cc7")
+	)
+	(wire
+		(pts
+			(xy 209.55 144.78) (xy 207.01 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1967bafb-f853-46e0-a6c2-5a316878f643")
+	)
+	(wire
+		(pts
+			(xy 240.03 127) (xy 242.57 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "250aeee3-95f0-4a87-a4c0-925fb5ed3f75")
+	)
+	(wire
+		(pts
+			(xy 240.03 132.08) (xy 257.81 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2f9c38a5-dfa1-42f2-905d-9f8aefbdb247")
+	)
+	(wire
+		(pts
+			(xy 204.47 137.16) (xy 204.47 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376bd13e-573b-4b60-b23e-19cb0858c9fd")
+	)
+	(wire
+		(pts
+			(xy 222.25 91.44) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b5a8880-b8ca-48b6-966c-08b707fb33e9")
+	)
+	(wire
+		(pts
+			(xy 247.65 102.87) (xy 245.11 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44ecd3de-2dfc-423e-93cc-cedf17e27bba")
+	)
+	(wire
+		(pts
+			(xy 240.03 149.86) (xy 257.81 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "46c707ed-e6e8-4d5f-b521-70abe9d8d5b3")
+	)
+	(wire
+		(pts
+			(xy 245.11 139.7) (xy 245.11 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4afef51a-b9d4-4e45-9454-7b7390cae9d2")
+	)
+	(wire
+		(pts
+			(xy 242.57 127) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ca69ff4-c1fd-44ff-b2bc-8a3f7bb91311")
+	)
+	(wire
+		(pts
+			(xy 247.65 156.21) (xy 245.11 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5088f805-f69f-48a1-932d-3a32fc6a30bd")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 204.47 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5215615a-bd5e-4585-9837-b2fb1a5efd00")
+	)
+	(wire
+		(pts
+			(xy 240.03 109.22) (xy 242.57 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d48d503-6aa2-4f69-a8f7-32196ccbae34")
+	)
+	(wire
+		(pts
+			(xy 222.25 144.78) (xy 219.71 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5db3c5e5-ccb5-412a-a0b7-5d982a1ef465")
+	)
+	(wire
+		(pts
+			(xy 201.93 101.6) (xy 204.47 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6a3b7846-796f-4aee-b0cb-89adef0ead64")
+	)
+	(wire
+		(pts
+			(xy 222.25 132.08) (xy 201.93 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7db8034d-2272-4f4f-8b9e-08ecac335a63")
+	)
+	(wire
+		(pts
+			(xy 207.01 144.78) (xy 207.01 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "80dbf0a7-7ce4-4e2b-ac34-c697340c9576")
+	)
+	(wire
+		(pts
+			(xy 242.57 109.22) (xy 242.57 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8577ba62-39df-4cc1-83fc-57f59775eb9d")
+	)
+	(wire
+		(pts
+			(xy 204.47 119.38) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85fe6752-8f1b-4737-a246-a7de1ab35506")
+	)
+	(wire
+		(pts
+			(xy 207.01 109.22) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a78f6c0-b2ed-45ec-8897-03257db66ec1")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 201.93 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8f54fc4b-c414-407b-92f5-fef642be2ff2")
+	)
+	(wire
+		(pts
+			(xy 209.55 127) (xy 207.01 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "914dc432-c06b-4b4b-b316-79398e9bb7b3")
+	)
+	(wire
+		(pts
+			(xy 257.81 132.08) (xy 257.81 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95e093a7-8993-4b83-b60d-d851a32062d8")
+	)
+	(wire
+		(pts
+			(xy 240.03 96.52) (xy 257.81 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9843f5ed-7db2-43dc-9745-3a49d39cbced")
+	)
+	(wire
+		(pts
+			(xy 240.03 114.3) (xy 257.81 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9966ddb2-9812-4519-913c-dbda924b4507")
+	)
+	(wire
+		(pts
+			(xy 222.25 127) (xy 219.71 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9dc32e18-a6bb-45a7-b1f0-8d54574f0be6")
+	)
+	(wire
+		(pts
+			(xy 242.57 76.2) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a17de4d6-c4d1-43b2-93b2-a99e5a938270")
+	)
+	(wire
+		(pts
+			(xy 201.93 137.16) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af775024-cc1d-4869-8016-6904beba26cd")
+	)
+	(wire
+		(pts
+			(xy 245.11 121.92) (xy 245.11 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb8da9b8-a89d-40b9-a3ea-040678a32253")
+	)
+	(wire
+		(pts
+			(xy 247.65 121.92) (xy 245.11 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c18ffd27-cabf-4c58-a748-d1684421f30f")
+	)
+	(wire
+		(pts
+			(xy 207.01 127) (xy 207.01 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c56bc21a-2d7f-45b5-bc0f-2436764b0d54")
+	)
+	(wire
+		(pts
+			(xy 247.65 139.7) (xy 245.11 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c73a36be-d8cf-4245-9b8c-dc615abee5b3")
+	)
+	(wire
+		(pts
+			(xy 207.01 91.44) (xy 209.55 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cad8b552-3c3c-4997-aa7e-f7849423346e")
+	)
+	(wire
+		(pts
+			(xy 245.11 156.21) (xy 245.11 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9fe45f-1cb3-4eb5-a0fa-726ee24287f3")
+	)
+	(wire
+		(pts
+			(xy 240.03 144.78) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d35660b7-9503-42ae-b09c-052c4b06a387")
+	)
+	(wire
+		(pts
+			(xy 207.01 80.01) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d9750289-2f49-4361-a0ea-249034d1ec97")
+	)
+	(wire
+		(pts
+			(xy 257.81 96.52) (xy 257.81 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebd57457-b956-4d73-a962-0139d01c6c77")
+	)
+	(wire
+		(pts
+			(xy 240.03 91.44) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebf1b2a0-92f6-4ba4-ae3c-8c471e388bb9")
+	)
+	(wire
+		(pts
+			(xy 222.25 149.86) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebff0f0c-d160-4b47-b565-a1b25fab5993")
+	)
+	(wire
+		(pts
+			(xy 242.57 91.44) (xy 242.57 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec61f23d-f4fb-4fdc-ab7f-45026ff2ec40")
+	)
+	(wire
+		(pts
+			(xy 257.81 114.3) (xy 257.81 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ecfc685b-de19-4e9a-8469-ba65426444f8")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 207.01 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f620a325-08d2-485b-aa3f-48beaec77573")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 257.81 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ab4429-f4c6-43aa-8469-5dc4b812b77d")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 257.81 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ab4429-f4c6-43aa-8469-5dc4b812b77e")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 257.81 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ab4429-f4c6-43aa-8469-5dc4b812b77f")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 257.81 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ab4429-f4c6-43aa-8469-5dc4b812b780")
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08")
+		(at 199.39 137.16 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23f459e3-20b2-497f-9679-139f721c1285")
+		(property "Reference" "X13"
+			(at 196.342 136.271 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MKDSN1,5/8-5,08"
+			(at 201.93 133.477 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e22b7a7-f9f1-40a4-a065-508b404edeb3")
+		)
+		(pin "2"
+			(uuid "04c936a0-ba6c-458d-9586-11d748c69cb9")
+		)
+		(pin "8"
+			(uuid "96817a29-78dd-4718-b06b-7f1646d3a1ce")
+		)
+		(pin "4"
+			(uuid "5fc7c040-e645-434b-8538-35da7fd70dbf")
+		)
+		(pin "7"
+			(uuid "0b485a3f-8ea7-4ba5-8e53-2918b72fb340")
+		)
+		(pin "5"
+			(uuid "2d692030-9ade-4c5f-9a07-8b4307ab3285")
+		)
+		(pin "3"
+			(uuid "a36df92a-b7bf-4c7a-ac78-016e8dc4bf3e")
+		)
+		(pin "6"
+			(uuid "1f0bb767-212d-45c4-b4e0-fdb235215841")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "X13")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29766694-b2c4-485c-a6fb-6351b4cd8290")
+		(property "Reference" "#PWR075"
+			(at 245.11 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfec35b3-5666-4da4-9a1e-dd928fa59ec6")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 252.73 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "309ce7e2-5059-4fa4-b8f2-10a1496518e1")
+		(property "Reference" "R54"
+			(at 251.46 152.6286 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 251.46 157.988 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 252.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5bfda6a-27df-4d8e-819e-e2622e3f389c")
+		)
+		(pin "1"
+			(uuid "3bf97c3a-0aad-4658-910e-23a75df72c6e")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 252.73 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b928e97-5b46-4889-b391-2cf2eb4c7c2a")
+		(property "Reference" "R52"
+			(at 251.46 118.3386 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 251.46 123.698 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 252.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04fe002a-0ca6-4a80-a04a-4485ddc695f9")
+		)
+		(pin "1"
+			(uuid "de01badc-0a21-469c-a92e-9d3d3d59f870")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:LTV816S")
+		(at 232.41 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41a2415d-80b4-4de1-8e41-87be6500c02b")
+		(property "Reference" "OK5"
+			(at 225.425 88.265 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTV816S"
+			(at 225.425 101.6 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:DIL4-SMD"
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1cd905e6-7de9-4431-80cf-c4bab6e78e64")
+		)
+		(pin "1"
+			(uuid "9cd00d42-ed81-4181-8134-1050326abf85")
+		)
+		(pin "2"
+			(uuid "4ce037ba-5f98-4c17-b37f-542399c58588")
+		)
+		(pin "4"
+			(uuid "1822dc4b-33c4-41db-af85-f8e8cb88b3f7")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "OK5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08")
+		(at 199.39 119.38 180)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fed8cbe-90e0-4c51-9918-71f7e3191baf")
+		(property "Reference" "X13"
+			(at 196.342 118.491 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MKDSN1,5/8-5,08"
+			(at 201.93 115.697 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7bd27ee-a399-4129-bb93-a6fb7fae73bd")
+		)
+		(pin "4"
+			(uuid "55cacbfc-2701-4deb-8974-4ecad6c5b4fc")
+		)
+		(pin "2"
+			(uuid "b94594cd-6fe2-478f-80bb-77023786d622")
+		)
+		(pin "3"
+			(uuid "3f14c14c-cd9a-4ea2-8e39-39e48d0d52f6")
+		)
+		(pin "8"
+			(uuid "ec712b85-2b91-4c2f-8a2d-c43a64592ead")
+		)
+		(pin "5"
+			(uuid "d37be7e5-f2e2-456c-8cfe-d2ca5ec26691")
+		)
+		(pin "6"
+			(uuid "aee3c34f-9c66-410f-adc9-fd427f02f8da")
+		)
+		(pin "7"
+			(uuid "3b6bfd74-6121-40b5-8e7e-6fb0c4f21839")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "X13")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 242.57 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "517ccf07-ba43-443a-865f-d57b1012b89e")
+		(property "Reference" "#PWR072"
+			(at 242.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.998 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e9de738-8828-4746-9b25-00ea40ed16c7")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 252.73 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51c1c0ba-2d4d-4496-a703-71851627679b")
+		(property "Reference" "R53"
+			(at 251.46 136.1186 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 251.46 141.478 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5cb2eee-7da4-474a-b86b-6ca1e67e90fc")
+		)
+		(pin "2"
+			(uuid "d14347cf-405c-4e73-9467-216d25ebe247")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 214.63 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67e5b2b8-5dad-43cf-9baa-a1adcb07e67f")
+		(property "Reference" "R50"
+			(at 213.36 141.1986 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 213.36 146.558 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26efc822-59d1-44bf-8d2d-aab85dea5901")
+		)
+		(pin "1"
+			(uuid "2ca300fb-07ab-48d0-b856-602a2b50ca95")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08")
+		(at 199.39 132.08 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74c5d2fd-6f39-4714-810a-3d4c30a2f6aa")
+		(property "Reference" "X13"
+			(at 196.342 131.191 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MKDSN1,5/8-5,08"
+			(at 201.93 128.397 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+			(at 199.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "650ebfd8-9080-4a71-96d6-bffe059b7ec9")
+		)
+		(pin "3"
+			(uuid "5143dfac-8d3c-4a80-b11b-128780edd8ee")
+		)
+		(pin "4"
+			(uuid "c1c5af12-2409-4632-9116-119dc6ec1f72")
+		)
+		(pin "5"
+			(uuid "ddd4f12f-31e5-43a6-ac93-ac04fdc12c8b")
+		)
+		(pin "6"
+			(uuid "7911e22b-ecea-467c-9789-b06c3fff3f79")
+		)
+		(pin "7"
+			(uuid "2a69a2ca-0987-4df9-854f-f7c3a9fe91c9")
+		)
+		(pin "2"
+			(uuid "b5e7e0d3-b671-4c53-85e2-2e92a7fb088d")
+		)
+		(pin "1"
+			(uuid "20b11c83-a445-45e0-8387-6a7dc2cda0eb")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "X13")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 214.63 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7507cf50-fd57-4b7c-8511-e3172542290f")
+		(property "Reference" "R30"
+			(at 213.36 87.8586 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 213.36 93.218 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 214.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "942cbd9c-9c22-4c92-9546-99b3aec8f4b6")
+		)
+		(pin "2"
+			(uuid "a1f508b9-c613-4d21-8680-791121c5d616")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 214.63 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a405e4a-a132-464b-ab22-41bab2806820")
+		(property "Reference" "R49"
+			(at 213.36 123.4186 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 213.36 128.778 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e9dc16d-0092-4afa-b79d-b5e5587cc9f9")
+		)
+		(pin "1"
+			(uuid "fa9bb08f-82a9-460a-8a8d-c923a78895b5")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:LTV816S")
+		(at 232.41 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85f92a95-633a-44a1-ae05-e0cdd0af42f5")
+		(property "Reference" "OK7"
+			(at 225.425 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTV816S"
+			(at 225.425 137.16 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:DIL4-SMD"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ee737048-9f71-405d-84ee-9257800f68b8")
+		)
+		(pin "1"
+			(uuid "7c8bfdad-dddd-45a4-8b6e-d422f230fdca")
+		)
+		(pin "2"
+			(uuid "f53f6373-6c8e-404b-9bf1-4b1d69ecf5c6")
+		)
+		(pin "4"
+			(uuid "81d3b355-b615-4f42-abae-267182b212da")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "OK7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:LTV816S")
+		(at 232.41 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dadd7ed-a406-48dc-be8f-bce6de314fe0")
+		(property "Reference" "OK8"
+			(at 225.425 141.605 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTV816S"
+			(at 225.425 154.94 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:DIL4-SMD"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "529c070f-b94a-4c3b-86ae-2af94881ff31")
+		)
+		(pin "2"
+			(uuid "17e074f6-9b4c-432e-9207-de338cea5609")
+		)
+		(pin "1"
+			(uuid "c6dd15ea-cba3-4999-bf22-654e8b019650")
+		)
+		(pin "3"
+			(uuid "d4baf5ba-4e4c-48a4-9672-59bb4f7f78fd")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "OK8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:LTV816S")
+		(at 232.41 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9002b4e9-36a3-42e3-b9db-8caf93e5003d")
+		(property "Reference" "OK6"
+			(at 225.425 106.045 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTV816S"
+			(at 225.425 119.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:DIL4-SMD"
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c124e0-b1fe-4a17-b57e-8df4fd145ee3")
+		)
+		(pin "3"
+			(uuid "33ea8d56-5798-44b5-ad5c-43d4683a44b0")
+		)
+		(pin "4"
+			(uuid "c878b6f8-3368-45e6-b046-6ca25da4f826")
+		)
+		(pin "2"
+			(uuid "fe00d74c-46b5-46c4-bd99-978e957fbcc8")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "OK6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08")
+		(at 199.39 101.6 180)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90ca3e80-1437-4b7d-8593-568fa4970cba")
+		(property "Reference" "X13"
+			(at 196.342 100.711 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MKDSN1,5/8-5,08"
+			(at 201.93 97.917 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "874ad1fe-bb25-48f0-965e-1cd262bdd40f")
+		)
+		(pin "5"
+			(uuid "52679598-11ff-401d-8267-850e610d0193")
+		)
+		(pin "7"
+			(uuid "b08c67b4-e48e-460a-ba56-eb7a829fdc19")
+		)
+		(pin "2"
+			(uuid "731f2bca-20cd-4993-9275-42aa17f2ec70")
+		)
+		(pin "8"
+			(uuid "1a38a803-9ce6-4f4d-913b-65af923ee6cd")
+		)
+		(pin "1"
+			(uuid "378f6ee4-699d-4385-9d30-531f93c47506")
+		)
+		(pin "6"
+			(uuid "89ab67e4-459e-4ec9-a9d9-b00e26259a55")
+		)
+		(pin "4"
+			(uuid "a61dbc59-ec0f-45cf-a112-120ef8cfc159")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "X13")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 214.63 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c039fa80-57bc-446b-be81-6068b4658098")
+		(property "Reference" "R48"
+			(at 213.36 105.6386 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 213.36 110.998 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "126386d8-f853-4e24-afec-04a8369dd411")
+		)
+		(pin "1"
+			(uuid "3b0c8d36-7909-4ca0-87a3-8d4d0960af13")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08")
+		(at 199.39 114.3 180)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da0a5b8a-eb23-4f7d-99b5-143cc4f7b9c5")
+		(property "Reference" "X13"
+			(at 196.342 113.411 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MKDSN1,5/8-5,08"
+			(at 201.93 110.617 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01f71ead-208f-4548-95ba-a446179130b1")
+		)
+		(pin "8"
+			(uuid "edd3d0ba-6712-469b-b406-e49c3cf37fff")
+		)
+		(pin "3"
+			(uuid "33775fc7-5fb8-4ece-9ba5-0f4b166cc083")
+		)
+		(pin "4"
+			(uuid "225714d8-9a24-48ef-98a5-033be9716b50")
+		)
+		(pin "5"
+			(uuid "1113565e-f831-4c05-8a05-291fc6f5f77b")
+		)
+		(pin "6"
+			(uuid "26cefac6-12bc-4c0c-9265-f081e17fdffb")
+		)
+		(pin "7"
+			(uuid "1ad4ded9-e7cc-4cea-84cb-29b3de17a3b5")
+		)
+		(pin "1"
+			(uuid "86d6282a-2587-452e-994c-61fd8542035d")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "X13")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8dcc42a-9d24-479d-8161-caec223f087e")
+		(property "Reference" "#PWR074"
+			(at 204.47 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "482dc927-a871-4585-bfba-3fc0baaa7c58")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 207.01 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea4d1166-ce3c-4452-a244-9fa83868ec6d")
+		(property "Reference" "#PWR071"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 207.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b0d59c6-a41b-4d26-a57c-f195754f9261")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08")
+		(at 199.39 96.52 180)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f28ad883-904f-480b-8699-563dcbb96f72")
+		(property "Reference" "X13"
+			(at 196.342 95.631 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MKDSN1,5/8-5,08"
+			(at 201.93 92.837 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c0223b59-3d27-4151-8c96-f4bfcb76fd81")
+		)
+		(pin "6"
+			(uuid "90dca3cd-054e-4b12-a75a-eafe21a572a7")
+		)
+		(pin "8"
+			(uuid "754e1ce8-d793-46ee-a60d-dd1147e3125d")
+		)
+		(pin "7"
+			(uuid "95a2b22f-c9b3-4dcc-bbce-1f5664d25810")
+		)
+		(pin "1"
+			(uuid "c6a64c90-5460-423c-9ff5-6d1b3360ede6")
+		)
+		(pin "2"
+			(uuid "089a2a71-a80c-41a0-8a30-cc4d7017c0a8")
+		)
+		(pin "3"
+			(uuid "e2ec9fa5-a3cb-4eb6-9f60-331d9a0ef417")
+		)
+		(pin "4"
+			(uuid "c56cf88a-7288-44b6-bc00-fd8411967426")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "X13")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:R-EU_R0603")
+		(at 252.73 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8567d02-9132-4502-9a58-c7c393cb5544")
+		(property "Reference" "R51"
+			(at 251.46 99.2886 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 251.46 104.648 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:R0603"
+			(at 252.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63867841-97f9-4528-a1dd-29531fe1f51f")
+		)
+		(pin "2"
+			(uuid "2d617fb8-94c5-41fb-a745-04132e098569")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTU_Agro_V4-eagle-import:MKDSN1,5/8-5,08")
+		(at 199.39 149.86 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fda886e4-bd94-41ec-8fd9-6d6a7bcab4e5")
+		(property "Reference" "X13"
+			(at 196.342 148.971 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MKDSN1,5/8-5,08"
+			(at 201.93 146.177 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RTU_Agro_V4:MKDSN1,5_8-5,08"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0843d7e0-b655-45bc-8cdc-8dc408cd931b")
+		)
+		(pin "8"
+			(uuid "10043289-2dac-4813-b905-09258f851393")
+		)
+		(pin "2"
+			(uuid "3c2f00d0-d063-41ca-9248-7e1a185096db")
+		)
+		(pin "3"
+			(uuid "61164746-f324-4019-a6cf-954028eb82d4")
+		)
+		(pin "5"
+			(uuid "df2d231e-b3e0-43fa-bfd4-edb86a5a50b3")
+		)
+		(pin "1"
+			(uuid "d03977d1-99dc-412e-b3d0-0a4cd36cb56b")
+		)
+		(pin "4"
+			(uuid "5f17e550-9ec2-48bf-a58e-a9e05e03c153")
+		)
+		(pin "7"
+			(uuid "a7180bd0-bfde-4b6f-a487-c954464dff81")
+		)
+		(instances
+			(project "RTU_Agro_new"
+				(path "/90ee446b-8259-4f9e-bbe3-142f081fc3e2/e64d93dd-dd49-446e-9ba5-2d3a3d805db7"
+					(reference "X13")
+					(unit 2)
+				)
+			)
+		)
+	)
+)
